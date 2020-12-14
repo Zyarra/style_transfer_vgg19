@@ -18,3 +18,8 @@ Style transfer with vgg19 backbone
 --style-image(required_
 --alpha(default 1.0)
 
+Should be something like this:
+
+![content](https://github.com/Zyarra/style_transfer_vgg19/blob/main/images/examples/sailboat_cropped.jpg) + ![style](https://github.com/Zyarra/style_transfer_vgg19/blob/main/images/examples/sketch_cropped.jpg) = ![content_style](https://github.com/Zyarra/style_transfer_vgg19/blob/main/images/examples/sailboat_stylized_sketch.jpg)
+
+
