@@ -4,13 +4,13 @@ Style transfer with vgg19 backbone
 
 ## Based on https://github.com/xunhuang1995/AdaIN-style
 
-## training requires:
+## Training requires:
 content images in images/content_images
 style images in images/style_images
 output is in images/output_images/stylized.jpg
 ### and a lot of VRAM/RAM/Time :)
 
-## parser args:
+## Parser args:
 --content-image(required)
 --style-image(required_
 --alpha(default 1.0)
