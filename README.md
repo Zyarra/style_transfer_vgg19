@@ -12,7 +12,8 @@ TF2 implementation of Style transfer with vgg19 backbone
 3) output is in images/output_images/stylized.jpg
 # and a lot of VRAM/RAM/Time :)
 
-## Parser args:
+For trying: 
+## Parser args
 --content-image(required)
 --style-image(required_
 --alpha(default 1.0)
