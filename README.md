@@ -5,7 +5,7 @@ TF2 implementation of Style transfer with vgg19 backbone
 ![model_architecture](https://github.com/Zyarra/style_transfer_vgg19/blob/main/images/examples/architecture.jpg)
 
 
-
+```
 ## Training requires:
 1) content images in images/content_images
 2) style images in images/style_images
@@ -16,13 +16,14 @@ TF2 implementation of Style transfer with vgg19 backbone
 --content-image(required)
 --style-image(required_
 --alpha(default 1.0)
-
+```
 Should be something like this:
 
 ![content](https://github.com/Zyarra/style_transfer_vgg19/blob/main/images/examples/sailboat_cropped.jpg) + ![style](https://github.com/Zyarra/style_transfer_vgg19/blob/main/images/examples/sketch_cropped.png) = ![content_style](https://github.com/Zyarra/style_transfer_vgg19/blob/main/images/examples/sailboat_stylized_sketch.jpg)
 
 
 To track metrics and see style progress, start Tensorboard
-
+```
 tensorboard --logdir model/
 and navigate to localhost:6006.
+```
