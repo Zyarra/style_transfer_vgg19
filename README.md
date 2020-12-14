@@ -5,9 +5,9 @@ Style transfer with vgg19 backbone
 ## Based on https://github.com/xunhuang1995/AdaIN-style
 
 ## Training requires:
-content images in images/content_images
-style images in images/style_images
-output is in images/output_images/stylized.jpg
+1) content images in images/content_images
+2) style images in images/style_images
+3) output is in images/output_images/stylized.jpg
 ### and a lot of VRAM/RAM/Time :)
 
 ## Parser args:
