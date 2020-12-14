@@ -3,6 +3,9 @@ Style transfer with vgg19 backbone
 
 
 ## Based on https://github.com/xunhuang1995/AdaIN-style
+![model_architecture](https://github.com/Zyarra/style_transfer_vgg19/blob/main/images/examples/architecture.jpg)
+
+
 
 ## Training requires:
 1) content images in images/content_images
